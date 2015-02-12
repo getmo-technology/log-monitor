@@ -1,2 +1,1 @@
-# cursodemeteorjs
-cursodemeteorjs.com.br
+# in dev mode
