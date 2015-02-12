@@ -1,5 +1,4 @@
-Router.route('/contato', function () {
-  	this.render('Contact');
-}, {
-	name: 'contact.list'
+Router.route('/contato', {
+	name: 'contact.list',
+	template: 'Contact'
 });
