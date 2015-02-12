@@ -1,4 +1,4 @@
 Router.route('/', function () {
-	this.layout('Master');
+	this.layout('MasterLayout');
   	this.render('Home');
 });

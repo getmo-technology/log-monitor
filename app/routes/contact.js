@@ -1,4 +1,4 @@
 Router.route('/contato', function () {
-	this.layout('Master');
+	this.layout('MasterLayout');
   	this.render('Contact');
 });
