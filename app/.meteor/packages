@@ -5,6 +5,7 @@
 # but you can also edit it by hand.
 
 meteor-platform
+autopublish
 twbs:bootstrap
 ian:accounts-ui-bootstrap-3
 # fezvrasta:bootstrap-material-design

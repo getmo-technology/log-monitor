@@ -1,3 +1,10 @@
 <template name="Videos">
-	<h1>videos</h1>
+	<h1>Lista de Videos</h1>
+	<ul>
+		{{#each list}}
+		<li>
+			<a href="/videos/{{_id}}">{{title}}</a>
+		</li>
+		{{/each}}
+	</ul>
 </template>
