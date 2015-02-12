@@ -1,5 +1,7 @@
 if (Meteor.isClient) {
 
+  accountsUIBootstrap3.setLanguage('pt-BR');
+
 }
 
 if (Meteor.isServer) {
