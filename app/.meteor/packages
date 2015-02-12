@@ -12,3 +12,4 @@ accounts-password
 accounts-github
 accounts-facebook
 accounts-twitter
+iron:router
