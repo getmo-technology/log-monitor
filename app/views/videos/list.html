@@ -2,9 +2,9 @@
 	<div class="container">
 		<h1>Videos aulas de Meteor</h1>
 		<ul class="list-unstyled">
-			{{#each list}}
+			{{#each videos}}
 			<li class="col-md-4">
-				<a href="{{urlFor 'videos.show'}}">{{title}}</a>
+				<a href="{{urlFor 'video.show'}}">{{title}}</a>
 			</li>
 			{{/each}}
 		</ul>
