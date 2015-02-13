@@ -1,11 +1,9 @@
 VideosListController = RouteController.extend({
-	template: 'Videos',
-	data: function(){
-		return {
-			videos: function(){
-				return Videos.find();
-			}
-		}
+	template: 'Videos'
+});
+VideosListController.helpers({
+	list: function(){
+		return Videos.find();
 	}	
 });
 
