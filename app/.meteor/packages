@@ -7,11 +7,11 @@
 meteor-platform
 autopublish
 twbs:bootstrap
-ian:accounts-ui-bootstrap-3
-# fezvrasta:bootstrap-material-design
-accounts-password
-accounts-github
-accounts-facebook
-accounts-twitter
+# ian:accounts-ui-bootstrap-3
+fezvrasta:bootstrap-material-design
+# accounts-password
+# accounts-github
+# accounts-facebook
+# accounts-twitter
 iron:router
 zimme:iron-router-active

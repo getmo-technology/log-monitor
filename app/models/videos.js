@@ -1,1 +1,1 @@
-Videos = new Meteor.Collection('videos');
+//Videos = new Meteor.Collection('videos');

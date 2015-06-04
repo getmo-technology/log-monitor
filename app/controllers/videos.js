@@ -1,19 +1,19 @@
-VideosListController = RouteController.extend({
-	template: 'Videos'
-});
-VideosListController.helpers({
-	list: function(){
-		return Videos.find();
-	}	
-});
+// VideosListController = RouteController.extend({
+// 	template: 'Videos'
+// });
+// VideosListController.helpers({
+// 	list: function(){
+// 		return Videos.find();
+// 	}	
+// });
 
-VideosNewController = RouteController.extend({
-	template: 'VideosNew'
-});
+// VideosNewController = RouteController.extend({
+// 	template: 'VideosNew'
+// });
 
-VideoShowController = RouteController.extend({
-	template: 'VideoShow',
-	data: function(){
-		return Videos.findOne({_id: this.params._id});
-	}
-});	
+// VideoShowController = RouteController.extend({
+// 	template: 'VideoShow',
+// 	data: function(){
+// 		return Videos.findOne({_id: this.params._id});
+// 	}
+// });	

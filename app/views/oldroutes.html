@@ -1,12 +1,11 @@
-<template name="Home">
+<template name="OldRoutes">
 	<div class="container">
-		<h1>Logs</h1>
+		<h1>Old Routes</h1>
 		<ul class="list-unstyled">
 			{{#each list}}
 			<li class="col-md-12" style="margin:0 0 30px 0">
 				<div class="col-md-6">
 					<a href="#">{{type}}</a>
-					<i>{{timespent}}</i>
 					<p>{{name}}</p>
 				</div>
 				<div class="col-md-6">
@@ -14,9 +13,6 @@
 				</div>
 				<div class="col-md-12" style="word-break: break-all;">
 					<p>{{params}}</p>
-				</div>
-				<div class="col-md-12">
-					<p>{{message}}</p>
 				</div>
 			</li>
 			{{/each}}

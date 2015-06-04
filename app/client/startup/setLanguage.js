@@ -1,1 +1,1 @@
-accountsUIBootstrap3.setLanguage('pt-BR');
+//accountsUIBootstrap3.setLanguage('pt-BR');
