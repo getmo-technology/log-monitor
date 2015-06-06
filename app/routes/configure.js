@@ -3,7 +3,9 @@ Router.configure({
 });
 
 Router.onBeforeAction(function() {
-	if (Meteor.userId()) {
+	if (!Meteor.userId()) {
+		this.render('Home');
+	}else{
 		this.next();
 	}
 });
