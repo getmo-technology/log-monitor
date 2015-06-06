@@ -1,3 +1,5 @@
 .meteor/local
 .meteor/meteorite
 .idea/
+mup.json
+settings.json
