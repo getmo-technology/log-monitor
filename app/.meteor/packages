@@ -6,10 +6,11 @@
 
 meteor-platform
 autopublish
+anti:i18n
 twbs:bootstrap
-# ian:accounts-ui-bootstrap-3
+ian:accounts-ui-bootstrap-3
 fezvrasta:bootstrap-material-design
-# accounts-password
+accounts-password
 # accounts-github
 # accounts-facebook
 # accounts-twitter
