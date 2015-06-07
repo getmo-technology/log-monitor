@@ -3,6 +3,6 @@ FailedjobsListController = RouteController.extend({
 });
 FailedjobsListController.helpers({
 	list: function(){
-		return Logs.find({'type': 'failed-job'}, {sort: {created_at: -1}});
+		return Logs.find({'type': 'failed:job'}, {sort: {created_at: -1}});
 	}	
 });
